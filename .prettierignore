@@ -1,0 +1,18 @@
+# Ignore artifacts:
+dist
+coverage
+
+# Ignore node_modules:
+node_modules
+e2e
+
+# Ignore configs in root
+package.json
+package-lock.json
+angular.json
+.prettierignore
+.prettierrc
+azure-pipelines.yml
+.browserlistrc
+.editorconfig
+.npmrc
