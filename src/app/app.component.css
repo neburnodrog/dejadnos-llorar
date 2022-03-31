@@ -1,23 +1,28 @@
-.logo img {
-  padding: 30px 0;
+:host {
+  display: flex;
+  flex-direction: column;
 }
 
-.resource-list {
+.logo img {
+  position: absolute;
+  padding: 30px;
+}
+
+.app-title {
   font-family: Helvetica, Arial, sans-serif;
+  font-weight: 500;
   font-size: larger;
   padding: 10px;
   text-align: center;
 }
 
-.resource-list ul {
-  text-align: left;
-  margin: 0 auto;
-  width: 300px;
+main {
+  display: flex;
+  flex-direction: column;
 }
 
-.resource-list a {
-  color: black;
-  line-height: 30px;
+main img {
+  margin: auto;
 }
 
 footer {
